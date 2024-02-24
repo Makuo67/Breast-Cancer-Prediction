@@ -26,9 +26,9 @@ For the second model, I employed the Adam optimization technique. Adam is an ada
 - *Reason*: To ensure small and stable weight updates
 - Batch Size: 32 (default value)
 
-### Model 3: Stochastic Gradient Descent (SGD)
+### Stochastic Gradient Descent (SGD)
 
-The third model utilized Stochastic Gradient Descent as the optimization algorithm. SGD is a classic optimization algorithm that updates the weights using the gradients of the loss function with respect to the weights. However, the results were suboptimal:
+The third method utilized Stochastic Gradient Descent as the optimization algorithm. SGD is a classic optimization algorithm that updates the weights using the gradients of the loss function with respect to the weights. However, the results were suboptimal:
 
 - Training Accuracy: 62.86%
 - Test Accuracy: 62.28%
@@ -39,9 +39,9 @@ The third model utilized Stochastic Gradient Descent as the optimization algorit
 - *Reason*: To traverse through shallow local minima and accelerate convergence.
 - Batch Size: 32
 
-### Model 4: Root Mean Square (RMS)
+### Root Mean Square (RMS)
 
-For the fourth model, I applied the Root Mean Square (RMS) optimization technique. RMSProp adapts the learning rates of each parameter by dividing the learning rate by the moving average of the squared gradients. The model achieved the following results:
+For the fourth method, I applied the Root Mean Square (RMS) optimization technique. RMSProp adapts the learning rates of each parameter by dividing the learning rate by the moving average of the squared gradients. The model achieved the following results:
 
 - Training Accuracy: 100.00%
 - Test Accuracy: 96.49%
